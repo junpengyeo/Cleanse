@@ -177,7 +177,7 @@ function gotResult(results) {
   }
 
   function hand1() {
-    if (count % 200 == 0) {
+    if (count % 100 == 0) {
       if (spr1.animation.getFrame() == 1 && spr1.removed == false) {
         spr1.remove();
         song.play();
@@ -190,7 +190,7 @@ function gotResult(results) {
   }
 
   function hand2() {
-    if (count % 200 == 0 && spr1.removed) {
+    if (count % 100 == 0 && spr1.removed) {
       if (spr2.animation.getFrame() == 0 && spr2.removed == false) {
         spr2.remove();
         song.play();
@@ -200,7 +200,7 @@ function gotResult(results) {
   }
 
   function hand3() {
-    if (count % 200 == 0 && spr2.removed) {
+    if (count % 100 == 0 && spr2.removed) {
       if (spr3.animation.getFrame() == 0 && spr3.removed == false) {
         spr3.remove();
         song.play();
@@ -210,7 +210,7 @@ function gotResult(results) {
   }
 
   function hand4() {
-    if (count % 200 == 0 && spr3.removed) {
+    if (count % 100 == 0 && spr3.removed) {
       if (spr4.animation.getFrame() == 0 && spr4.removed == false) {
         spr4.remove();
         song.play();
@@ -220,7 +220,7 @@ function gotResult(results) {
   }
 
   function hand5() {
-    if (count % 200 == 0 && spr4.removed) {
+    if (count % 100 == 0 && spr4.removed) {
       if (spr5.animation.getFrame() == 0 && spr5.removed == false) {
         spr5.remove();
         song.play();
@@ -230,7 +230,7 @@ function gotResult(results) {
   }
 
   function hand6() {
-    if (count % 200 == 0 && spr5.removed) {
+    if (count % 100 == 0 && spr5.removed) {
       if (spr6.animation.getFrame() == 0 && spr6.removed == false) {
         spr6.remove();
         song.play();
@@ -240,7 +240,7 @@ function gotResult(results) {
   }
 
   function hand7() {
-    if (count % 200 == 0 && spr6.removed) {
+    if (count % 100 == 0 && spr6.removed) {
       if (spr7.animation.getFrame() == 0) {
         spr7.animation.nextFrame();
       } else {
